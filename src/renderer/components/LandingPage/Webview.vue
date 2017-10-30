@@ -1,5 +1,5 @@
 <template>
-	<webview id="foo" :src="url" style="display:inline-flex; width:640px; height:480px"></webview>
+	<webview id="foo" :src="url"></webview>
 </template>
 
 <script>
@@ -10,5 +10,11 @@
 </script>
 
 <style scoped>
-	
+	#foo {
+		display: inline-flex;
+		width: 100%;
+		height: 400px;
+		margin-top: 10px;
+		border: 1px solid #000;
+	}
 </style>
